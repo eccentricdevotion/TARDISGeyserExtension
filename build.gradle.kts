@@ -6,7 +6,7 @@ val id = project.property("id") as String
 val extensionName = project.property("name") as String
 val author = project.property("author") as String
 val version = project.version as String
-val geyserApiVersion = "2.8.3"
+val geyserApiVersion = "2.9.4"
 
 repositories {
     // Repo for the Geyser API artifact
@@ -23,10 +23,10 @@ dependencies {
     // Include other dependencies here - e.g. configuration libraries.
 }
 
-// Java currently requires Java 17 or higher, so extensions should also target it
+// Minecraft currently requires Java 21 or higher, so extensions should also target it
 java {
-    targetCompatibility = JavaVersion.VERSION_17
-    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_25
+    sourceCompatibility = JavaVersion.VERSION_25
 }
 
 afterEvaluate {
@@ -35,7 +35,6 @@ afterEvaluate {
         throw IllegalArgumentException("Invalid extension id $id! Must only contain lowercase letters, " +
                 "and cannot start with a number.")
     }
-
     val nameRegex = Regex("^[A-Za-z_.-]+$")
     if (nameRegex.matches(extensionName).not()) {
         throw IllegalArgumentException("Invalid extension name $extensionName! Must fit regex: ${nameRegex.pattern})")

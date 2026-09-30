@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "TARDIS Bedrock Resource Pack",
+		"description": "For eccentric_nz's TARDIS plugin",
+		"uuid": "6445207f-9873-c99e-9af5-3143e9e0122f",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["eccentric_nz"],
+		"generated_with": {
+			"blockbench_item_wizard": ["1.2.4"]
+		}
+	},
+	"modules": [
+		{
+			"description": "TARDIS Bedrock Resource Pack",
+			"type": "resources",
+			"uuid": "3d618f14-5f5e-366d-686a-febf5ac89d20",
+			"version": [1, 0, 0]
+		}
+	]
+}

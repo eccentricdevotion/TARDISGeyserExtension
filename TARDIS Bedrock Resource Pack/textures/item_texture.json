@@ -1,0 +1,22 @@
+{
+	"texture_data": {
+		"tardis_stattenheim_remote": {
+			"textures": "textures/items/tardis_stattenheim_remote.png"
+		},
+		"tardis:tardis_stattenheim_remote": {
+			"textures": "textures/items/tardis_stattenheim_remote.png"
+		},
+		"sonic_eighth_on": {
+			"textures": "textures/items/sonic_eighth_on.png"
+		},
+		"tardis:sonic_eighth_on": {
+			"textures": "textures/items/sonic_eighth_on.png"
+		},
+		"sonic_eighth": {
+			"textures": "textures/items/sonic_eighth.png"
+		},
+    "tardis:sonic_eighth": {
+      "textures": "textures/items/sonic_eighth"
+    }
+	}
+}
