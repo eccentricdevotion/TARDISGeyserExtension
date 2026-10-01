@@ -1,0 +1,12 @@
+{
+  "resource_pack_name": "TBRP",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "tardis.item_sonic_eighth_on_icon": {
+      "textures": "textures/item/sonic/eighth_on_icon"
+    },
+    "tardis.item_sonic_eighth_icon": {
+      "textures": "textures/item/sonic/eighth_icon"
+    }
+  }
+}
