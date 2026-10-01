@@ -2,10 +2,13 @@ package me.eccentric_nz.TARDIS;
 
 import org.geysermc.event.subscribe.Subscribe;
 import org.geysermc.geyser.api.event.lifecycle.GeyserDefineCustomItemsEvent;
+import org.geysermc.geyser.api.event.lifecycle.GeyserDefineResourcePacksEvent;
 import org.geysermc.geyser.api.extension.Extension;
+import org.geysermc.geyser.api.item.custom.NonVanillaCustomItemData;
 import org.geysermc.geyser.api.item.custom.v2.CustomItemBedrockOptions;
 import org.geysermc.geyser.api.item.custom.v2.CustomItemDefinition;
 import org.geysermc.geyser.api.predicate.item.ItemRangeDispatchPredicate;
+import org.geysermc.geyser.api.predicate.item.RangeDispatchPredicate;
 import org.geysermc.geyser.api.util.CreativeCategory;
 import org.geysermc.geyser.api.util.Identifier;
 
@@ -19,9 +22,12 @@ public class TARDISExtension implements Extension {
     @Subscribe
     public void onGeyserDefineCustomItems(GeyserDefineCustomItemsEvent event) {
 
+        NonVanillaCustomItemData data = NonVanillaCustomItemData.builder()..build();
+
         event.register(Identifier.of("minecraft", "blaze_rod"), CustomItemDefinition.builder(
                         Identifier.of("tardis", "sonic_eighth"), // bedrock item identifier
-                        Identifier.of("tardis", "sonic_eighth") // item model definition in java resource pack
+                        Identifier.of("tardis", "sonic_eighth") // item definition in java resource pack e.g. /assets/tardis/items
+                        // should it be the actual model path? e.g. assets/tardis/models/item/sonic/eighth
                 ).displayName("Sonic Screwdriver")
                 .bedrockOptions(CustomItemBedrockOptions.builder()
                         .icon("sonic_eighth")
@@ -29,7 +35,7 @@ public class TARDISExtension implements Extension {
                         .creativeCategory(CreativeCategory.EQUIPMENT))
                 .predicate(ItemRangeDispatchPredicate.customModelData(0, 108))
                 .build());
-        System.out.println("sonic_eighth");
+        logger().info("sonic_eighth");
         event.register(Identifier.of("minecraft", "blaze_rod"), CustomItemDefinition.builder(
                         Identifier.of("tardis", "sonic_eighth_on"), // bedrock item identifier
                         Identifier.of("tardis", "sonic_eighth_on") // item model definition in java resource pack
@@ -40,7 +46,7 @@ public class TARDISExtension implements Extension {
                         .creativeCategory(CreativeCategory.EQUIPMENT))
                 .predicate(ItemRangeDispatchPredicate.customModelData(0, 208))
                 .build());
-        System.out.println("sonic_eighth_on");
+        logger().info("sonic_eighth_on");
         event.register(Identifier.of("minecraft", "flint"), CustomItemDefinition.builder(
                         Identifier.of("tardis", "tardis_stattenheim_remote"),
                         Identifier.of("tardis", "stattenheim_remote")
@@ -51,6 +57,15 @@ public class TARDISExtension implements Extension {
                         .creativeCategory(CreativeCategory.EQUIPMENT)
                 )
                 .build());
-        System.out.println("stattenheim_remote");
+        logger().info("stattenheim_remote");
+    }
+
+    @Subscribe
+    public void onGeyserLoadResourcePacksEvent(GeyserDefineResourcePacksEvent event) {
+        logger().info("Loading: " + event.resourcePacks().size() + " resource packs.");
+        event.resourcePacks().forEach(resourcePack -> {
+            logger().info(resourcePack.manifest().header().name());
+        });
+        // you could add a resource pack with event.resourcePacks().add(path-to-pack)
     }
 }
