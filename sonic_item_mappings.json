@@ -1,0 +1,545 @@
+{
+  "format_version": 2,
+  "items": {
+    "minecraft:blaze_rod": [
+      {
+        "model": "minecraft:blaze_rod",
+        "definitions": [
+          {
+            "bedrock_identifier": "tardis:item/sonic/mark1",
+            "priority": 101,
+            "predicate": {
+              "index": 0,
+              "threshold": 101,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_mark1_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/mark1_on",
+            "priority": 201,
+            "predicate": {
+              "index": 0,
+              "threshold": 201,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_mark1_on_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/mark2",
+            "priority": 102,
+            "predicate": {
+              "index": 0,
+              "threshold": 102,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_mark2_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/mark2_on",
+            "priority": 202,
+            "predicate": {
+              "index": 0,
+              "threshold": 202,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_mark2_on_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/mark3",
+            "priority": 103,
+            "predicate": {
+              "index": 0,
+              "threshold": 103,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_mark3_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/mark3_on",
+            "priority": 203,
+            "predicate": {
+              "index": 0,
+              "threshold": 203,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_mark3_on_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/mark4",
+            "priority": 104,
+            "predicate": {
+              "index": 0,
+              "threshold": 104,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_mark4_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/mark4_on",
+            "priority":204,
+            "predicate": {
+              "index": 0,
+              "threshold": 204,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_mark4h_on_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/eighth",
+            "priority": 108,
+            "predicate": {
+              "index": 0,
+              "threshold": 108,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_eighth_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/eighth_on",
+            "priority": 208,
+            "predicate": {
+              "index": 0,
+              "threshold": 208,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_eighth_on_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/ninth",
+            "priority": 109,
+            "predicate": {
+              "index": 0,
+              "threshold": 109,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_ninth_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/ninth_open",
+            "priority": 209,
+            "predicate": {
+              "index": 0,
+              "threshold": 209,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_ninth_open_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/tenth",
+            "priority": 110,
+            "predicate": {
+              "index": 0,
+              "threshold": 110,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_tenth_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/tenth_open",
+            "priority": 210,
+            "predicate": {
+              "index": 0,
+              "threshold": 210,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_tenth_open_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/eleventh",
+            "priority": 111,
+            "predicate": {
+              "index": 0,
+              "threshold": 111,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_eleventh_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/eleventh_open",
+            "priority": 211,
+            "predicate": {
+              "index": 0,
+              "threshold": 211,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_eleventh_open_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/twelfth",
+            "priority": 112,
+            "predicate": {
+              "index": 0,
+              "threshold": 112,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_twelfth_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/twelfth_on",
+            "priority": 212,
+            "predicate": {
+              "index": 0,
+              "threshold": 212,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_twelfth_on_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/thirteenth",
+            "priority": 113,
+            "predicate": {
+              "index": 0,
+              "threshold": 113,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_thirteenth_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/thirteenth_on",
+            "priority": 213,
+            "predicate": {
+              "index": 0,
+              "threshold": 213,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_thirteenth_on_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/fourteenth",
+            "priority": 114,
+            "predicate": {
+              "index": 0,
+              "threshold": 114,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_fourteenth_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/fourteenth_open",
+            "priority": 214,
+            "predicate": {
+              "index": 0,
+              "threshold": 214,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_fourteenth_open_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/fifteenth",
+            "priority": 115,
+            "predicate": {
+              "index": 0,
+              "threshold": 115,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_fifteenth_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/fifteenth_on",
+            "priority": 215,
+            "predicate": {
+              "index": 0,
+              "threshold": 215,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_fifteenth_on_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/war",
+            "priority": 120,
+            "predicate": {
+              "index": 0,
+              "threshold": 120,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_war_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/war_on",
+            "priority": 220,
+            "predicate": {
+              "index": 0,
+              "threshold": 220,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_war_on_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/master",
+            "priority": 121,
+            "predicate": {
+              "index": 0,
+              "threshold": 121,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_master_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/master_on",
+            "priority": 221,
+            "predicate": {
+              "index": 0,
+              "threshold": 221,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_master_on_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/sarah_jane",
+            "priority": 122,
+            "predicate": {
+              "index": 0,
+              "threshold": 122,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_sarah_jane_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/sarah_jane_on",
+            "priority": 2222,
+            "predicate": {
+              "index": 0,
+              "threshold": 222,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_sarah_jane_on_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/sonic_probe",
+            "priority": 123,
+            "predicate": {
+              "index": 0,
+              "threshold": 123,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_sonic_probe_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/sonic_probe_on",
+            "priority": 223,
+            "predicate": {
+              "index": 0,
+              "threshold": 223,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_sonic_probe_on_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/river_song",
+            "priority": 124,
+            "predicate": {
+              "index": 0,
+              "threshold": 124,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_river_song_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/river_song_on",
+            "priority": 224,
+            "predicate": {
+              "index": 0,
+              "threshold": 224,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_river_song_on_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/umbrella",
+            "priority": 125,
+            "predicate": {
+              "index": 0,
+              "threshold": 125,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_umbrella_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/umbrella_on",
+            "priority": 225,
+            "predicate": {
+              "index": 0,
+              "threshold": 225,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_umbrella_on_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/rani",
+            "priority": 126,
+            "predicate": {
+              "index": 0,
+              "threshold": 126,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_rani_icon"
+            },
+            "type": "definition"
+          },
+          {
+            "bedrock_identifier": "tardis:item/sonic/rani_on",
+            "priority": 226,
+            "predicate": {
+              "index": 0,
+              "threshold": 226,
+              "property": "custom_model_data",
+              "type": "range_dispatch"
+            },
+            "bedrock_options": {
+              "icon": "tardis.item_sonic_rani_on_icon"
+            },
+            "type": "definition"
+          }
+        ],
+        "type": "group"
+      }
+    ]
+  }
+}

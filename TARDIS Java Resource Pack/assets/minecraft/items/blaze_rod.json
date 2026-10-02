@@ -1,31 +1,273 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:custom_model_data",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
         "cases": [
             {
-                "when": [
-                    {
-                        "floats": [
-                            108
-                        ]
-                    }
-                ],
+                "when": "101",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/mark1"
+                }
+            },
+            {
+                "when": "201",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/mark1_on"
+                }
+            },
+            {
+                "when": "102",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/mark2"
+                }
+            },
+            {
+                "when": "202",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/mark2_on"
+                }
+            },
+            {
+                "when": "103",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/mark3"
+                }
+            },
+            {
+                "when": "203",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/mark3_on"
+                }
+            },
+            {
+                "when": "104",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/mark4"
+                }
+            },
+            {
+                "when": "204",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/mark4_on"
+                }
+            },
+            {
+                "when": "108",
                 "model": {
                     "type": "minecraft:model",
                     "model": "tardis:item/sonic/eighth"
                 }
             },
             {
-                "when": {
-                    "floats": [
-                        208
-                    ]
-                },
+                "when": "208",
                 "model": {
                     "type": "minecraft:model",
                     "model": "tardis:item/sonic/eighth_on"
+                }
+            },
+            {
+                "when": "109",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/ninth"
+                }
+            },
+            {
+                "when": "209",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/ninth_open"
+                }
+            },
+            {
+                "when": "110",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/tenth"
+                }
+            },
+            {
+                "when": "210",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/tenth_open"
+                }
+            },
+            {
+                "when": "111",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/eleventh"
+                }
+            },
+            {
+                "when": "211",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/eleventh_open"
+                }
+            },
+            {
+                "when": "112",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/twelfth"
+                }
+            },
+            {
+                "when": "212",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/twelfth_on"
+                }
+            },
+            {
+                "when": "113",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/thirteenth"
+                }
+            },
+            {
+                "when": "213",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/thirteenth_on"
+                }
+            },
+            {
+                "when": "114",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/fourteenth"
+                }
+            },
+            {
+                "when": "214",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/fourteenth_open"
+                }
+            },
+            {
+                "when": "115",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/fifteenth"
+                }
+            },
+            {
+                "when": "215",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/fifteenth_on"
+                }
+            },
+            {
+                "when": "120",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/war"
+                }
+            },
+            {
+                "when": "220",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/war_on"
+                }
+            },
+            {
+                "when": "121",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/master"
+                }
+            },
+            {
+                "when": "221",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/master_on"
+                }
+            },
+            {
+                "when": "122",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/sarah_jane"
+                }
+            },
+            {
+                "when": "222",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/sarah_jane_on"
+                }
+            },
+            {
+                "when": "123",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/sonic_probe"
+                }
+            },
+            {
+                "when": "223",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/sonic_probe_on"
+                }
+            },
+            {
+                "when": "124",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/river_song"
+                }
+            },
+            {
+                "when": "224",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/river_song_on"
+                }
+            },
+            {
+                "when": "125",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/umbrella"
+                }
+            },
+            {
+                "when": "225",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/umbrella_on"
+                }
+            },
+            {
+                "when": "126",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/rani"
+                }
+            },
+            {
+                "when": "226",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/sonic/rani_on"
                 }
             }
         ],
