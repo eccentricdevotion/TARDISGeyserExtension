@@ -1,25 +1,21 @@
 {
-  "format_version": 2,
-  "items": {
-    "minecraft:flint": [
-      {
-        "model": "minecraft:flint",
-        "definitions": [
-          {
-            "bedrock_identifier": "tardis:item/tardis/stattenheim_remote",
-            "predicate": {
-                "type": "match",
-                "property": "custom_model_data",
-                "value": "Stattenheim Remote",
-                "index": 0
-            },
-            "bedrock_options": {
-              "icon": "tardis.item_stattenheim_remote"
-            },
-            "type": "definition"
-          }
+    "format_version": 2,
+    "items": {
+        "minecraft:flint": [
+            {
+                "type": "definition",
+                "model": "minecraft:flint",
+                "bedrock_identifier": "tardis:item/tardis/stattenheim_remote",
+                "predicate": {
+                    "type": "match",
+                    "property": "custom_model_data",
+                    "value": "Stattenheim Remote",
+                    "index": 0
+                },
+                "bedrock_options": {
+                  "icon": "tardis.item_stattenheim_remote"
+                }
+            }
         ]
-      }
-    ]
-  }
+    }
 }
